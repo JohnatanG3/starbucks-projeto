@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Starbucks</title>
+</head>
+<body>
+    <div class="circulo"></div>
+    <img class="logo" src="./img/logo.png" alt="Logo do Site">
+    <div class="caixa-conteudo">
+
+        <div class="caixa-textos">
+            <h2>Não é apenas café, é <span>Starbucks</span>!</h2>
+            <p>
+                Starbucks é uma rede global de cafeterias conhecida por seus cafés especiais e ambientes acolhedores. Fundada em 1971, a marca oferece uma experiência que vai além do café, combinando qualidade, inovação e um compromisso com a sustentabilidade. Seja para um encontro ou um momento de pausa, a Starbucks é sinônimo de sabor e conveniência.
+            </p>
+            <button>Clique no Sininho</button>
+        </div>
+
+        <div class="caixa-imagem">
+            <img class="copo" src="./img/img1.png" alt="Item 1">
+        </div>
+    </div>
+
+    <div class="caixa-menu">
+        <img class="botao-menu" src="./img/thumb1.png" onclick="trocaACor('#017143'); trocarImagem('./img/img1.png')" alt="Sub-item 1">
+        <img class="botao-menu" src="./img/thumb2.png" onclick="trocaACor('#eb7495'); trocarImagem('./img/img2.png')" alt="Sub-item 2">
+        <img class="botao-menu" src="./img/thumb3.png" onclick="trocaACor('#d752b1'); trocarImagem('./img/img3.png')" alt="Sub-item 3">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
